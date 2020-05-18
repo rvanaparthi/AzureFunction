@@ -174,7 +174,7 @@
                           "workspaceKey": "[parameters('WorkspaceKey')]",
                           "apiToken": "[parameters('APIToken')]",
                           "uri": "[parameters('Uri')]",
-                          "timeInterval": "[parameters('TimeInterval')]",
+                          "timeInterval": "[parameters('TimeInterval')]"
                           //"WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rvanaparthi/AzureFunction/blob/master/azure-arm-templates/Okta.zip?raw=true"
                                    } 
                   }
