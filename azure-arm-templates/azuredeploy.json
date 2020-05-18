@@ -18,13 +18,9 @@
               "type": "string",
               "defaultValue": "<apiToken>"
           },
-          "TableName": {
-              "type": "string",
-              "defaultValue": "<tableName>"
-          },
           "Uri": {
               "type": "string",
-              "defaultValue": "https://accenturedev7mn.oktapreview.com/api/v1/logs?since="
+              "defaultValue": "https://<OktaDomain>/api/v1/logs?since="
           },
           "TimeInterval": {
               "type": "string",
