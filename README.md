@@ -3,7 +3,7 @@ Gets the Logs from Okta API and Uploads to LogAnalytics
 
 
 # Okta
-Repository is for Qualys Deployment using Arm Templates
+Repository is for Okta Azure Function App Deployment using Arm Templates
 
 
 #### 1: Deploy via Azure ARM Template #####
