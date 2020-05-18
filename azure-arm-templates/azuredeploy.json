@@ -16,11 +16,11 @@
           },
           "APIToken": {
               "type": "string",
-              "defaultValue": "<apiUsername>"
+              "defaultValue": "<apiToken>"
           },
           "TableName": {
               "type": "string",
-              "defaultValue": "<apiPassword>"
+              "defaultValue": "<tableName>"
           },
           "Uri": {
               "type": "string",
@@ -180,7 +180,7 @@
                           "tableName": "[parameters('TableName')]",
                           "uri": "[parameters('Uri')]",
                           "timeInterval": "[parameters('TimeInterval')]",
-                          "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rvanaparthi/Qualys/blob/master/azure-arm-templates/qualys_vm_template.zip?raw=true"
+                          "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/rvanaparthi/AzureFunction/blob/master/azure-arm-templates/Okta.zip?raw=true"
                                    } 
                   }
               ]
