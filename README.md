@@ -1,2 +1,2 @@
 # OktatoLA
-Gets the Logs from Okta and Uploads to LogAnalytics
+Gets the Logs from Okta API and Uploads to LogAnalytics
