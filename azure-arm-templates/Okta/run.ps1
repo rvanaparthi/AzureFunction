@@ -34,7 +34,7 @@ $response = Invoke-RestMethod -uri "$uri$($startDate)"  -Method 'GET' -Headers $
 # Define the Log Analytics Workspace ID and Key and Custom Table Name
 $customerId = $env:workspaceId
 $sharedKey =  $env:workspaceKey
-$LogType = $env:tableName
+$LogType = "okta"
 $TimeStampField = "DateValue"
 
 # Function to create the authorization signature
